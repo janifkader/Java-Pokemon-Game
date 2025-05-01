@@ -50,8 +50,13 @@ public class Fighter{
 				target.stats.get(i).value += target.stats.get(i).value * move.stat_changes.get(i);
 			}
 			else if (move.stat_changes.get(i) > 0) {
-				this.message = this.name + "\'s " + this.stats.get(i).name + " was raised!";
-				this.stats.get(i).value += this.stats.get(i).value * move.stat_changes.get(i);
+				if (i == 0 && this.stats.get(i).value == this.stats.get(i).base) {
+					this.message = this.name + "\'s " + this.stats.get(i).name + " is full!";
+				}
+				else {
+					this.message = this.name + "\'s " + this.stats.get(i).name + " was raised!";
+					this.stats.get(i).value += this.stats.get(i).value * move.stat_changes.get(i);
+				}
 			}
 		}
 	}

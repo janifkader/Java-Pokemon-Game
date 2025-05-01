@@ -628,7 +628,7 @@ public class Create {
 		types.add(water);
 		types.add(ice);
 		
-		Fighter lapras = new Fighter("Lapeas", types, stats, weak, resist, immune, "/images/lapras.png", "/images/lapras_back.png");
+		Fighter lapras = new Fighter("Lapras", types, stats, weak, resist, immune, "/images/lapras.png", "/images/lapras_back.png");
 		ArrayList<Double> arr = new ArrayList<Double>();
 		while(arr.size() < 4) arr.add(0.0);
 		Move move1 = new Move("Water Pulse", water, 60, arr);
