@@ -23,4 +23,6 @@ Select your Pokémon from a diverse roster, face off in a one-on-one battle agai
 
 ![](images/battle.png)
 
+![](images/animation.gif)
+
 ![](images/end.png)
