@@ -6,3 +6,5 @@ Java Pokemon game with 18 Pokemon, all existing types with their corrsponding ef
 ## Download
 
 ### [Download the game here!](https://github.com/janifkader/Java-Pokemon-Game/raw/main/PokemonClone.jar)
+
+![](images/home.png)
